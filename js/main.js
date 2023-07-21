@@ -7,7 +7,7 @@ const level = document.querySelector('#level')
 let innerWidth = window.innerWidth - 50;
 let innerHeight = window.innerHeight - 50;
 const audio = new Audio()
-audio.src = './hammer.mp3'
+audio.src = './sounds/hammer.mp3'
 let sum = 0
 let grade
 let interVal
