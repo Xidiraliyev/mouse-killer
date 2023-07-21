@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+body{
+
+    background: grey;
+}
+.container {
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+h1{
+    text-align: center;
+}
+#mouse {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+#hammer {
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width 0.5s, height 0.5s all 0.5s;
+    width: 100px;
+    height: 100px;
+}
+
+#level{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+    background: pink;
+}
+
+#cheese1, #cheese2, #cheese3, #cheese4, #cheese5 {
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+#cheese2 {
+    position: relative;
+    top: 200px;
+}
+#cheese3 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#cheese4 {
+    position: relative;
+    top: 300px;
+    right: 100px;
+}
+#cheese5 {
+    position: relative;
+    top: 260px;
+    right: 50px;
+
+}
